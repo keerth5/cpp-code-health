@@ -1,0 +1,9 @@
+[requires]
+# Example dependencies
+fmt/10.1.0        # Formatting library
+spdlog/1.11.0     # Logging library
+catch2/3.4.0      # Unit testing framework
+
+[generators]
+cmake              # Generate CMake files
+cmake_find_package # Optional: allows find_package() in CMake
